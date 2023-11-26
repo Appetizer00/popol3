@@ -1,5 +1,5 @@
 import "./recommend.css";
-import StickyMenu from "./../product/hotel/stickymenu";
+import StickyMenu from "./stickymenu";
 import Recommend_main from "./recommend_main";
 import { useState } from 'react';
 
@@ -40,7 +40,7 @@ function Recommened() {
           </div>
         </div>
       </div>
-      <div className="productpageGridBox container">
+      <div className="productpageGridBox_recommend">
         <StickyMenu></StickyMenu>
         <Recommend_main></Recommend_main>
       </div>

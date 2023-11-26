@@ -17,7 +17,6 @@ https://www.goodchoice.kr/product/search/2 */
   position: relative;
   font-size: 1.5vw;
   float: left;
-  
 }
 
 .productpageMapBtn{
@@ -30,12 +29,10 @@ https://www.goodchoice.kr/product/search/2 */
 }
 
 .dropbtn {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-color: rgb(85, 85, 226);
   padding: 0.5vw 1vw;
   border-radius: 0.5vw;
+  display: block;
   box-shadow: 0.5px 0.5px 1px inset black;
   width: 13vw;
   cursor: pointer;
@@ -64,13 +61,11 @@ https://www.goodchoice.kr/product/search/2 */
   display: block;
 }
 
-.productpageGridBox_recommend {
+.productpageGridBox {
   display: grid;
-  /* grid-template-columns: 1fr 2.5fr 1fr; */
+  grid-template-columns: 1fr 2.5fr;
   column-gap: 1.5vw;
   padding: 2vw 0;
-  width: 50%;
-  margin: 0 auto;
 }
 
 .section-1Box {
@@ -258,7 +253,7 @@ input[type="checkbox"] {
 .productBgImg{
   position: relative;
   height: 20vw;
-  background-image: url("./../product/image/product1.jpg");
+  background-image: url("./../image/product1.jpg");
   cursor: pointer;
 }
 
